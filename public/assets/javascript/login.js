@@ -1,4 +1,5 @@
 
+console.log("js and home.html are connected!");
   var GoogleAuth;
   var SCOPE = 'https://www.googleapis.com/auth/drive.metadata.readonly';
   function handleClientLoad() {
@@ -16,7 +17,7 @@
     // Get API key and client ID from API Console.
     // 'scope' field specifies space-delimited list of access scopes.
     gapi.client.init({
-        'apiKey': "V5ovw5YHPChzLj07nS04XKakT",
+        'apiKey': "V5ovw5YHPChzLj07nS04XKak",
         'discoveryDocs': [discoveryUrl],
         'clientId': "651480339498-te4brvnjjs85338leb2pj0cba0ougn1b.apps.googleusercontent.com",
         'scope': SCOPE
